@@ -1,0 +1,46 @@
+#read-aloud-overlay {
+  cursor: pointer;
+  position: fixed !important;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1a73e8;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  box-sizing: border-box;
+  z-index: 999999 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#read-aloud-button {
+  color: #fff;
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  transition: all 0.2s ease;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+#read-aloud-button:hover {
+  background-color: #fff;
+  color: #1a73e8;
+  transform: scale(1.05);
+}
+
+#read-aloud-button:disabled {
+  color: #aaa;
+  cursor: default;
+}
