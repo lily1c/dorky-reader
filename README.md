@@ -134,6 +134,6 @@ MIT License - see LICENSE file
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by lily1c**
 
 **Dorky is ready to read!** 📚
